@@ -1,0 +1,13 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: document-proof-service
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Colombo
+
+  mongodb:
+    uri: mongodb+srv://keshan175:ClaCg0SaMT108NHz@mini-pos.66jcehe.mongodb.net/doc-proofdb?retryWrites=true&w=majority&appName=mini-pos
